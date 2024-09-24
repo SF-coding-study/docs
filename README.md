@@ -1,5 +1,17 @@
 # docs
 
+## 0. 작업 방법
+1. 원격 레포지토리를 로컬 컴퓨터로 가져오기 (Code 클릭후 URL을 복사합니다.)
+   <img width="944" alt="스크린샷 2024-09-24 11 29 54" src="https://github.com/user-attachments/assets/e89a443f-65fa-4de7-8885-526335bd874e">
+2. 로컬에 저장하기 (저장하고 싶은 경로에서 명령어 실행)
+   ```shell
+   git clone https://github.com/SF-coding-study/study.git
+   ```
+3. 작업후 add, commit, push 합니다.
+
+원격 레포지토리의 최신상태 가져오는 방법
+> 작업 하는 폴더 경로에서 `git pull` 명령어 실행
+
 ## 1. 코드 업로드
 ### Git 코드 업로드 방법
 > *주의* : 해당 내용은 Git업로드 flow예시입니다.<br>
