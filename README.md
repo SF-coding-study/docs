@@ -2,6 +2,9 @@
 
 ## 1. 코드 업로드
 ### Git 코드 업로드 방법
+> *주의* : 해당 내용은 Git업로드 flow예시입니다.<br>
+> 자세한 규칙은 `폴더`, `commit 규칙` 항목을 따라 진행해주세요!
+
 1. 원하는 파일 혹은 폴더를 git에 추가합니다.
    ```shell
    # 파일 추가 명령어 예시 : "git add [파일 상대경로]
@@ -29,7 +32,7 @@
   - commit 메세지: [문제 출처(플랫폼)] 문제이름 / 난이도 / 걸린시간
 - 터미널 명령어 예시
 ```shell
-git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.net/problem/2557"
+git commit -m "[PGS] Hello World / 브론즈5 / 1분"
 ```
 - 플랫폼 작성법 통일:
   - [BOJ] - 백준
@@ -51,4 +54,3 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
   ```shell
   git commit -m "AwesomePhoneBook / done"
   ```
-   
